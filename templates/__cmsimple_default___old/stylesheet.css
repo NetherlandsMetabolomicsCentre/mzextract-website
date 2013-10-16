@@ -16,9 +16,9 @@ ul li {line-height: 1.2em; border: 0; padding: 3px 0; margin: 0 0 0 17px;}
 hr {height: 1px; clear: both; color: #999; background-color: #999; border: 0; margin: 16px 0;}
 blockquote {padding: 2px 0 2px 20px; border-left: 3px solid #999;}
 
-/*
+/* 
 ##############################
- C O N T E N T  C L A S S E S
+ C O N T E N T  C L A S S E S 
 ##############################
 */
 .tplge_left_border {float: left; border: 5px solid #998; margin: 0 20px 10px 0;}
@@ -35,19 +35,19 @@ blockquote {padding: 2px 0 2px 20px; border-left: 3px solid #999;}
 .XXXXXXXXXXXXXXXXXX {} /* Marker for styles menu tinymce */
 
 
-/*
+/* 
 ##############################
            B O D Y
 ##############################
 */
 
 /* BODY UND SEITE / BODY AND PAGE */
-body {font-family: verdana, sans-serif; font-size: 14px; line-height: 1.4em; color: #444; overflow-y: scroll;}
-#body {background: #fff; text-align: left;}
+body {font-family: verdana, sans-serif; font-size: 14px; line-height: 1.4em; color: #444;}
+#body {background: #111; text-align: left;}
 #top {font-size: 10px; line-height: 10px;}
 
 
-/*
+/* 
 ##############################
         L A Y O U T
 ##############################
@@ -63,17 +63,17 @@ body {font-family: verdana, sans-serif; font-size: 14px; line-height: 1.4em; col
 #tplge_notes {}
 
 
-/*
+/* 
 ##############################
         D E S I G N
-##############################
+############################## 
 */
 
 /* KOPFBEREICH MIT SUCHBOX / HEADER AND SEARCHBOX */
-#tplge_header {background: #fff url(images/bodyback.png) center top no-repeat; border-bottom: 0px solid #999;}
+#tplge_header {background: #111 url(images/bgheader.jpg) center top no-repeat; border-bottom: 0px solid #999;}
 #tplge_headerin {width: 900px; padding: 0; margin: 0 auto;}
 
-#tplge_header h1 {float: right; clear: right; font-family: 'century gothic', sans-serif; color: #fff; font-size: 44px; line-height: 1.2em; text-align: right; font-weight: 100; padding: 20px 0 26px 16px; margin: 0;}
+#tplge_header h1 {float: right; clear: right; font-family: 'century gothic', sans-serif; color: #9f9a90; font-size: 24px; line-height: 1.2em; text-align: right; font-weight: 100; padding: 120px 0 16px 16px; margin: 0;}
 
 /* logo */
 #tplge_header .tplge_logo {float: left; border: 1px solid #666; margin: 20px 5px 20px 0;}
@@ -81,7 +81,7 @@ body {font-family: verdana, sans-serif; font-size: 14px; line-height: 1.4em; col
 
 
 /* MAIN */
-#tplge_main { background: #fff; }
+#tplge_main {background: #fff url(images/bgmain.jpg) repeat-x;}
 #tplge_mainin {width: 900px; padding: 10px 20px 10px 20px; margin: 0 auto;}
 
 /* locator */
@@ -128,7 +128,7 @@ p.lastupdate {font-size: 14px; color: #333; padding: 0 10px 0 10px;}
 
 
 /* NEWSBOXEN / NEWSBOXES */
-#tplge_news {background: #fff;}
+#tplge_news {background: #111 url(images/bgfooter.jpg) right top no-repeat;}
 #tplge_newsin {width: 950px; color: #999; font-family: arial, sans-serif; font-size: 15px; padding: 20px 0; margin: 0 auto;}
 
 div.tplge_news {width: 33%; float: left;}
@@ -136,7 +136,7 @@ div.tplge_newsin {line-height: 1.3em; border: 0px solid #996; padding: 0; margin
 div.tplge_newsin ul {list-style-type: none; list-style-image: none; padding: 6px 0 12px 0;}
 div.tplge_newsin li {list-style-type: none; list-style-image: none; line-height: 1.2em; padding: 1px 5px; margin: 2px 0;}
 
-div.tplge_newsin h4 {background: #fff; font-size: 16px; color: #bba; border-bottom: 1px solid #666; padding: 6px 16px 6px 16px; margin: 20px 0 12px 0;}
+div.tplge_newsin h4 {background: #444 url(images/bgnewsh4.jpg); font-size: 16px; color: #bba; border: 1px solid #666; padding: 6px 16px 36px 16px; margin: 20px 0 12px 0;}
 div.tplge_newsin h5 {color: #aa9; letter-spacing: 1px; margin: 10px 0 0 0;}
 div.tplge_newsin h6 {color: #aa9; letter-spacing: 1px; margin: 10px 0 0 0;}
 
@@ -170,10 +170,10 @@ a:active {color: #c60; text-decoration: underline;}
 a:focus {color: #c60; text-decoration: underline;}
 
 
-/*
+/* 
 ##############################
  S O N S T I G E S / R E S T
-##############################
+############################## 
 */
 
 #submit {background: #c60; color: #fff; border: 0; padding: 1px 6px; margin: 1px;}
